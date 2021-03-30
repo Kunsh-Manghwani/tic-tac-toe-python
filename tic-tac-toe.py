@@ -121,6 +121,7 @@ def main():
             else:
                 insertletter('O', move)
                 print("Computer placed a O at position ", move)
+                designboard(board)
         else:
             print("You Win!")
             break
